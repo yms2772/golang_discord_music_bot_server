@@ -38,7 +38,7 @@ func (w *web) OnMount(ctx app.Context) {
 		return
 	}
 
-	w.conn, _, err = websocket.Dial(ctx, websocketAddress+"/"+w.guildID, nil)
+	w.conn, _, err = websocket.Dial(ctx, WebsocketAddress+"/"+w.guildID, nil)
 	if err != nil {
 		return
 	}
