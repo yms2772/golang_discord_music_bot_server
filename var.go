@@ -1,7 +1,7 @@
 package main
 
 const (
-	websocketAddress = ""
+	WebsocketAddress = ""
 )
 
 var (
